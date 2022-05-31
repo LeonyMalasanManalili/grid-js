@@ -1,0 +1,43 @@
+/*General*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  /*Header*/
+  header {
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  /*Main*/
+  body {
+    background-color: #f5f0e8;
+  }
+  .container h2 {
+    text-align: center;
+  }
+  /*Grid*/
+  .grid {
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+    border: 2px solid #fff;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .square {
+    border: 2px solid #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .colorgreen {
+    background-color: green;
+  }
+  .colorred {
+    background-color: red;
+  }
